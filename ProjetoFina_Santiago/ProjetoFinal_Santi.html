@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CinePédia</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="lança series.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-image: url('imagem fundo.jpeg'); /* Substitua pelo caminho correto */
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    .logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 1rem; /* Tamanho pequeno */
+    color: #fff; /* Cor branca para contrastar com o fundo */
+    font-weight: bold;
+    z-index: 2; /* Garante que o texto fique acima da sobreposição */
+	}
+
+    h1 {
+      font-size: 4.5rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+      border-bottom: 3px solid #ffcc00;
+      display: inline-block;
+      padding-bottom: 10px;
+      letter-spacing: 2px;
+    }
+
+    nav {
+      margin-top: 30px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 20px;
+      font-size: 1.3rem;
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ffcc00;
+      transform: scale(1.1);
+    }
+
+    footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 0.9rem;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+<div class="logo">
+  Santiago Salvador
+</div>
+  <main>
+    <h1>CinePédia</h1>
+    <nav>
+      <a href="Filmes.html">Filmes</a>
+      <a href="S%C3%A9ries.html">Séries</a>
+      <a href="Lançamentos%20filmes.html">Lançamentos Filmes</a>
+	  <a href="Lançamentos%20Séries.html">Lançamentos Séries</a>
+    </nav>
+  </main>
+
+  <footer>
+    © 2025 CinePédia — Todos os direitos reservados.
+  </footer>
+</body>
+</html>
